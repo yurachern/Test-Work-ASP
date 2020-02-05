@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Статистика";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2 class="h2 text-center">Статистика по категориям клиентов</h2>
+        <table class="table table-striped table-hover alert-info alert-link">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Категория</th>
+                    <th scope="col">Количество клиентов</th>
+                    <th scope="col">Сумма по всем заказам</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.Records)
+                {
+                    <tr>
+                        <td><p class="table-item">@item.Name</p></td>
+                        <td><p class="table-item">@item.Quantity</p></td>
+                        <td><p class="table-item">@item.Sum</p></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

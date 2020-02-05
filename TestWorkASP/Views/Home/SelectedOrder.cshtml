@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = $"Список товаров заказа № {ViewBag.OrderNumber}";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2 class="h2 text-center">Список товаров заказа № @ViewBag.OrderNumber</h2>
+        <table class="table table-striped table-hover alert-info alert-link">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Название товара</th>
+                    <th scope="col">Цена</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col">Сумма</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.OrderLines)
+                {
+                    <tr>
+                        <td><p class="table-item">@item.Product.Name</p></td>
+                        <td><p class="table-item">@item.Price</p></td>
+                        <td><p class="table-item">@item.Quantity</p></td>
+                        <td><p class="table-item">@item.Sum</p></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
