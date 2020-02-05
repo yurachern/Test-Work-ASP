@@ -28,7 +28,7 @@
 7.	Отображение данных реализовать через представления.
 
 ![Иллюстрация к проекту](https://github.com/yurachern/Test-Work-ASP/blob/master/TestWorkASP/Images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA1.JPG)
-(https://github.com/yurachern/Test-Work-ASP/blob/master/TestWorkASP/Images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA2.JPG)
-(https://github.com/yurachern/Test-Work-ASP/blob/master/TestWorkASP/Images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA3.JPG)
-(https://github.com/yurachern/Test-Work-ASP/blob/master/TestWorkASP/Images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA4.JPG)
+![Иллюстрация к проекту](https://github.com/yurachern/Test-Work-ASP/blob/master/TestWorkASP/Images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA2.JPG)
+![Иллюстрация к проекту](https://github.com/yurachern/Test-Work-ASP/blob/master/TestWorkASP/Images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA3.JPG)
+![Иллюстрация к проекту](https://github.com/yurachern/Test-Work-ASP/blob/master/TestWorkASP/Images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA4.JPG)
 
